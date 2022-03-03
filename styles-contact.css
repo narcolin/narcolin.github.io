@@ -53,7 +53,7 @@ table {
 
 
 
-/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
+/* ---------- Hello, my name is Nicole Arcolino and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing, March 2022 ------------ */
 
 html, body {
   height: 100%;
@@ -83,9 +83,9 @@ html, body {
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+	font-family: bressay-devanagari, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h2 {
