@@ -71,7 +71,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: white(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: palevioletred (0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
@@ -84,10 +84,12 @@ html, body {
 h1 {
 	font-family: casablanca-urw, sans-serif;
 	font-weight: 300;
-	font-style: normal;
-	font-weight: 400;
-	font-style: normal;
+	font-style: normal;	
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: black;
 }
+
 
 h2 {
 	font-family: casablanca-urw, sans-serif;
@@ -111,9 +113,13 @@ p {
     
 nav{
 	font-family: casablanca-urw, sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	font-style: normal;
-	margin: 0 auto;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
 	border: black;
 	border-width: 3px 0;
 	text-align: center;
