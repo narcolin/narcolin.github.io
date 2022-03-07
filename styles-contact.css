@@ -56,10 +56,10 @@ table {
 /* ---------- Hello, my name is Nicole Arcolino and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing, March 2022 ------------ */
 
 html, body {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  height: 90%;
+  width: 90%;
+  padding: .025;
+  margin: .025;
   background: url(images/webbackground.png)
 	center center fixed no-repeat;
 	background-size: cover;
@@ -95,7 +95,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: black;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -106,7 +106,7 @@ p {
 	font-style: normal;	
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: black;
 }
     
 nav{
@@ -114,7 +114,7 @@ nav{
 	font-weight: 300;
 	font-style: normal;
 	margin: 0 auto;
-	border: dashed black;
+	border: black;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
