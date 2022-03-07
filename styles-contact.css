@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricksbg.jpg)
+  background: url(images/webbackground.png)
 	center center fixed no-repeat;
 	background-size: cover;
 	
@@ -71,27 +71,28 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: white(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
 	text-align: center;
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-family: bressay-devanagari, sans-serif;
+	font-family: casablanca-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	font-weight: 400;
 	font-style: normal;
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: casablanca-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -100,16 +101,18 @@ h2 {
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
+	font-family: casablanca-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;	
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
     
 nav{
-	font-family: bressay-devanagari, sans-serif;
-	font-size: 1.2em;
-	width: 400px;
+	font-family: casablanca-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	margin: 0 auto;
 	border: dashed black;
 	border-width: 3px 0;
