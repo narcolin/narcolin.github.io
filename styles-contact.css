@@ -60,9 +60,9 @@ html, body {
   width: 100%;
   padding: 0px 0px;
   margin: 0px auto 25px auto;
-  background: url(images/webbackground.png)
-	center center fixed no-repeat;
+  background: url(images/webbackground.png) center center fixed no-repeat;
 	background-size: cover;
+	background-position: center;
 	
 	
 }
@@ -85,7 +85,7 @@ h1 {
 	font-family: casablanca-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;	
-	font-size: 1.2em;
+	font-size: 2.2em;
     line-height: 1.6;
     color: black;
 }
@@ -95,7 +95,7 @@ h2 {
 	font-family: casablanca-urw, sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 2.5em;
     line-height: 1.4;
     color: black;
     padding: 0px 0px;
@@ -106,7 +106,7 @@ p {
 	font-family: casablanca-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;	
-	font-size: 1.2em;
+	font-size: 2.2em;
     line-height: 1.6;
     color: black;
 }
@@ -115,7 +115,7 @@ nav{
 	font-family: casablanca-urw, sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.8em;
     line-height: 1.4;
     color: black;
     padding: 0px 0px;
@@ -137,7 +137,7 @@ nav a{
 }
 
 a{
-	color: #444;
+	color: white;
 	text-decoration: none;
 	font-weight: bold;
 }
