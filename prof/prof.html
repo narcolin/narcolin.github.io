@@ -32,41 +32,63 @@
             <br>
             Technical Writing Analyst for Salesforce, full-time starting March 2024.
         </p>
+        <hr>
         <br>
-        <br><h1>REST API Improvement Plan</h1>
-        <br>
-        <p>Improvement plan for the Tableau Help site to update REST API methods. Collaborated with the DevDocs team to create a template, tested new revisions, and converted code. 
-            Documented the process using MadCap Flare software with languages: HTML, XML, and JSON. 
-        </br>
-            <br>Visit the Tableau Help page link to see an endpoint I created for publishing a data point. </br>
-                <nav>   
-                    <ul>
-                        <li><a href= "https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_data_sources.htm#publish_data_source7E">Tableau Help: Publish Data Source Endpoint</a></li>
-                    </ul>
-                </nav>
-        </p>
-        <br>
-        <h1>Open-Source Postman Collection & Environment</h1>
-        <br>
-        <p>Procedural document with instructions on how to download and import the collection/environment. Collaborated with the Solutions Engineering tema
-            to test and implement new aspects: automatic sign-in, detailed error codes, and reusable variables. 
-        </br>
-        <br>
-        Presented to my internal team about my findings during testing, future goals for the Postman collection, and the efficiency of using the API platform. </br>
-    </p>
-        <br><h2>
-            <!--<img id="postman" src="profimg/postman.jpeg" width= 495 height= 290 alt="Postman Demo"></br></h2>-->
-        <h1>User Management Walkthrough</h1>
-<br>
+
+        <h1>Tableau REST API Improvement Plan</h1><br>
+            <p>Improvement plan for the Tableau Help site to update REST API methods. I collaborated with the Developer Documentation team to create a template, test new revisions, and build code to the Help site. 
+            Documented the process using MadCap Flare software with formats in HTML, XML, and JSON. </br>
+            <br>Visit the Tableau Help page link to see an endpoint I implemented for publishing a data point. </br>
+            <nav>   
+                <ul><li><a href= "https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_data_sources.htm#publish_data_source7E">Tableau Help: Publish Data Source Endpoint</a></li></ul>
+            </nav></p><br>
+
+        <h1>Tableau Open-Source Postman Collection & Environment</h1><br>
+            <p>Postman is a platform used to send and test API requests. I collaborated with the Solutions Engineering team to test new innovations. Features included: automatic sign-in, error details highlighting, and resuable authentication variables.</br><br>
+            <h2><img id="json" src="profimg/collectionfeatures.png" width= 600 alt="postman collection features"></h2></p><br>
+            <p>Presented to my internal team about my findings during testing, future goals for the Postman collection, and the efficiency of using the API platform.</p><br><h2>
+
+        <h1>Tableau User Management Walkthrough</h1><br>
         <p>Walkthrough that covers the basics of using Tableau REST API to manage users and groups. Created a procedural document guiding the user
              through making direct requests using python, and using the Tableau Server Client (TSC), a open-source python wrapper for the REST API supported by Tableau. 
              Site administrators can use supplemental files with code scripts to see the process of provisioning users. 
-             JSON files with example user information is provided to run these scripts successfully. 
-        </br>
-        <br><h2>
-            <!-- <img id="json" src="profimg/json.png" width= 250 height= 370 alt="JSON">-->
-            <img id="diagram" src="profimg/diagram.png" width= 500 height= 150 alt="diagram"></br></h2>
-        </p>
+             JSON files with example user information is provided to run these scripts successfully. </br><br>
+             <h2>
+                <img id="python" src="profimg/pythoncode.png" width= 350 alt="python code">
+                <img id="json" src="profimg/jsoncode.png" width= 260 alt="json code"><br>
+                <img id="diagram" src="profimg/diagram.png" width= 650 alt="diagram"></br></h2></p><br><br>
+
+    <h1>Salesforce Data Cloud Connect API Uplift</h1><br>
+        <p style="font-weight:bold">Problem: </p><p>The existing Data Cloud Connect API Postman Collection was out-of-date and had not been tested for functionality in years. Related online documentation was also out-of-date and out-of-sync with the content in the Postman Collection. Providing a solution for both
+            documentation and a collection that are in-sync has the potential to impact adoption and implementation speed for Data Cloud APIs.</p><br><br>
+        <p style="font-weight:bold">Solution: </p><p>The single sourcing process involves one, "single" API file that is used to publish both the Postman Collection and the online documentation. This completely eliminates the issue of one of the two aspects being out-of-date if they’re both generated from the same file. This also makes the APIs more easily maintainable since only one writer can own the single file.</p><br>
+        <h2><img src="profimg/singlesourcing.jpeg" width= 450 alt="single sourcing process"></h2>
+        <p style="font-weight:bold">Process: </p>
+            <ol class="a">
+                <li>SFDocs Developer Guide: After receiving a RAML API spec from the UI SDK team, I made significant edits to make the SFDocs pages more user friendly.
+                    Apart from editing the reference material, I wrote content for other pages on the SFDocs build, like the Overview and Guides pages. The Guides page includes a section about using the Postman Collection, with instructions on installing the collection and setting up the environment.</li>
+                <li>Postman Collection: The Connect API Postman Collection is automatically generated from the API spec, simply by importing the
+                    RAML file. After sending an authentication request to your org, important URL variables are stored in your workplace
+                    environment to use in the rest of your calls. Providing  customers with tested, usable examples makes their experience using the collection much simpler.</li></ol><br>
+            <p>Visit the link to the Connect API Documentation below. Select "Reference" and "Data Cloud Connect API" to view the reference material.</p>
+            <nav>   
+                <ul><li><a href= "https://developer.salesforce.com/docs/platform/connectapi/overview">Data Cloud Connect API Documentation</a></li></ul>
+            </nav>
+            <p style="font-weight:bold">Testing: </p><p>With access to an org with admin credentials and existing sample data, I began testing each Connect API endpoint. I documented each request and response I received for both successful and unsuccessful API calls. Eventually, I identified 6 out of 34 APIs that did not work. I was able to report these impracticalities to our developers.</p><br>
+            <h2><img src="profimg/testing.png" width=690 alt="testing the postman collection"></h2>
+            <p>See the collection live from Salesforce Developers on Postman below.</p>
+            <nav>   
+                <ul><li><a href= "https://www.postman.com/salesforce-developers/workspace/salesforce-developers/collection/12721794-fa94cb66-3cb1-41e1-ad4b-7c0ec34bb430">Data Cloud Connect API Postman Collection</a></li></ul>
+            </nav><br><br>
+
+    <h1>Salesforce Technical Writing Analyst</h1><br>
+        <p>I began full-time employment at Salesforce in March of 2024. I joined the Self Service and Growth Team, working on documentation, content design, and more. My team is covers the Starter and Pro Suite editions for Salesforce, which provide a simplified 
+            experience for customer relations management.<br>
+        Learn more about Salesforce Starter and Pro Suite at the link below. </p>
+        <nav>   
+            <ul><li><a href= "https://help.salesforce.com/s/articleView?id=sf.easy_help.htm&type=5">Starter and Pro Suite Help Bundle</a></li></ul>
+        </nav>
+
     </div> <!--end of center div-->
     <footer>
         <p class="text-center">&nbsp;&nbsp;&nbsp;Created by Nicole Arcolino | Last updated: 2024</a></p>
