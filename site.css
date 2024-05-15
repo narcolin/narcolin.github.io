@@ -181,6 +181,13 @@ ol.a {
 	list-style-type: square;
 }
 
+ol.contents {
+	padding-left: 30px;
+	text-align: center;
+	line-height: 0.2;
+	list-style-type: square;
+}
+
 nav a{
 	display: inline-block;
 	padding: 10px;
