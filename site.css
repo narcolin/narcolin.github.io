@@ -93,10 +93,13 @@ html, body {
   width: 100%;
   padding: 0px 0px;
   margin: 0px auto 25px auto;
-  background: url(index/indeximg/back_index.png) center center fixed no-repeat;
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(226,238,225,1) 25%, rgba(196,220,194,1) 48%, rgba(143,188,139,1) 68%, rgba(116,150,96,1) 83%, rgba(85,107,47,1) 100%) center center fixed no-repeat;
+background-repeat: no-repeat;
+  /* background: url(index/indeximg/back_index.png) center center fixed no-repeat;
 	background-size: cover;
 	background-position: center;
-	
+	 */
 	
 }
 
@@ -104,7 +107,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgb(227, 231, 232, 0.7); /*this uses opacity of 75% for the background color*/
+ 	background: rgb(255, 255, 255, 0.4); /*this uses opacity of 75% for the background color*/
 	text-align: left;
 }
 
@@ -116,23 +119,23 @@ html, body {
 
 h1 {
 	font-family: optima, sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	font-style: italic;	
 	font-size: 2.0em;
 	text-align: left;
     line-height: 1.6;
-    color: black;
+    color: #485b27;
 }
 
 
 h2 {
 	font-family: optima, sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: bold;
 	font-size: 3.1em;
 	text-align: center;
     line-height: 1.4;
-    color: black;
+    color: #485b27;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -207,7 +210,7 @@ a:hover{
 }
   
 .topnav {
-	background-color: #ededed;
+	background-color: rgb(255, 255, 255, 0.7);
 	overflow: hidden;
 }
 
@@ -232,6 +235,11 @@ a:hover{
 	  
 /* Add a color to the active/current link */
 .topnav a.active {
-	background-color: #79797a;
+	background-color: #485b27;
 	color: white;
+}
+
+p.text-center {
+	color: #485b27;
+	text-align: center;
 }
