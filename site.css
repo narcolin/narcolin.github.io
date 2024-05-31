@@ -94,8 +94,8 @@ html, body {
   padding: 0px 0px;
   margin: 0px auto 25px auto;
   background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(226,238,225,1) 25%, rgba(196,220,194,1) 48%, rgba(143,188,139,1) 68%, rgba(116,150,96,1) 83%, rgba(85,107,47,1) 100%) center center fixed no-repeat;
-background-repeat: no-repeat;
+background: linear-gradient(white, white, rgba(179,205,224));
+background-attachment: fixed;
   /* background: url(index/indeximg/back_index.png) center center fixed no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -124,7 +124,7 @@ h1 {
 	font-size: 2.0em;
 	text-align: left;
     line-height: 1.6;
-    color: #485b27;
+    color: #011f4b;
 }
 
 
@@ -135,7 +135,7 @@ h2 {
 	font-size: 3.1em;
 	text-align: center;
     line-height: 1.4;
-    color: #485b27;
+    color: #03396c;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -156,13 +156,14 @@ nav{
 	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.2;
-    color: black;
+    color: #6497b1;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-	border: solid black;
+	/* border: solid #005b96; */
 	border-width: 1px 0;
 	text-align: center;
 	margin-top: 2em;
+	background-color: #E9F4FA;
 }  
 
 nav li{
@@ -176,7 +177,7 @@ li {
 	font-size: 1.1em;
 	text-align: left;
     line-height: 1.6;
-    color: black;
+    color: white;
 }
 
 ol.a {
@@ -195,6 +196,7 @@ nav a{
 	display: inline-block;
 	padding: 10px;
 	font-weight: bold;
+	background-color: #E9F4FA;
 }
 
 a{
@@ -205,13 +207,14 @@ a{
 }
 
 a:hover{
-	color:black;
-	background: white;
+	color:#005b96;
 }
   
 .topnav {
-	background-color: rgb(255, 255, 255, 0.7);
+	background-color: #E9F4FA;
 	overflow: hidden;
+	position: fixed;
+	width: 100%
 }
 
 /* Style the links inside the navigation bar */
@@ -235,11 +238,11 @@ a:hover{
 	  
 /* Add a color to the active/current link */
 .topnav a.active {
-	background-color: #485b27;
+	background-color: #6497b1;
 	color: white;
 }
 
 p.text-center {
-	color: #485b27;
+	color: white;
 	text-align: center;
 }
