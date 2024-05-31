@@ -177,7 +177,7 @@ li {
 	font-size: 1.1em;
 	text-align: left;
     line-height: 1.6;
-    color: white;
+    color: black;
 }
 
 ol.a {
@@ -246,4 +246,12 @@ a:hover{
 p.text-center {
 	color: white;
 	text-align: center;
+}
+
+.row {
+	display: flex;
+}
+  
+.column {
+	flex: 50%;
 }
